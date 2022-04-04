@@ -1,0 +1,125 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-image {
+  width: 213px;
+  height: 86px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.header-icon {
+  fill: var(--dl-color-gray-white);
+  width: 35px;
+  height: 35px;
+  margin-right: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+.studentverse-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-black);
+}
+.studentverse-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.studentverse-image {
+  width: 455px;
+  height: 239px;
+  object-fit: cover;
+}
+.studentverse-container2 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.studentverse-icon {
+  fill: var(--dl-color-gray-white);
+  width: 30px;
+  height: 30px;
+}
+.studentverse-textinput {
+  color: var(--dl-color-gray-white);
+  outline: none;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  padding-left: 0px;
+  border-radius: 0px;
+  padding-right: 0px;
+  background-color: var(--dl-color-gray-black);
+  border-bottom-width: 2px;
+}
+.studentverse-button {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  border-width: 0px;
+  padding-left: 2rem;
+  border-radius: 20px;
+  padding-right: 2rem;
+  background-color: #e7ef00;
+}
+.studentverse-text {
+  font-style: normal;
+  font-weight: 600;
+}
+.studentverse-container3 {
+  top: top;
+  right: 50px;
+  bottom: 50px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.studentverse-container4 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.studentverse-icon2 {
+  fill: #e7ef00;
+  width: 30px;
+  height: 30px;
+  align-self: flex-start;
+}
+.studentverse-text1 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 2em;
+  font-family: Fira Sans;
+  font-weight: 400;
+  line-height: 2;
+  margin-left: 2em;
+}
+.studentverse-image1 {
+  width: 150px;
+  align-self: flex-end;
+  object-fit: cover;
+}

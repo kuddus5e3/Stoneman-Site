@@ -1,0 +1,116 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-image {
+  width: 213px;
+  height: 86px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.header-icon {
+  fill: var(--dl-color-gray-white);
+  width: 35px;
+  height: 35px;
+  margin-right: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+.nonprofitverse-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-black);
+}
+.nonprofitverse-container1 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 5em;
+  align-items: flex-start;
+  margin-left: 3em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nonprofitverse-container2 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nonprofitverse-image {
+  width: 50px;
+  object-fit: cover;
+}
+.nonprofitverse-text {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit);
+  line-height: 2;
+}
+.nonprofitverse-image1 {
+  width: 150px;
+  align-self: center;
+  object-fit: cover;
+}
+.nonprofitverse-container3 {
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nonprofitverse-icon {
+  fill: var(--dl-color-gray-white);
+  width: 30px;
+  height: 30px;
+}
+.nonprofitverse-textinput {
+  color: var(--dl-color-gray-white);
+  outline: none;
+  text-align: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  padding-left: 0px;
+  border-radius: 0px;
+  padding-right: 0px;
+  background-color: var(--dl-color-gray-black);
+  border-bottom-width: 2px;
+}
+.nonprofitverse-button {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  border-width: 0px;
+  padding-left: 2rem;
+  border-radius: 20px;
+  padding-right: 2rem;
+  background-color: #f1600f;
+}
+.nonprofitverse-text6 {
+  font-style: normal;
+  font-weight: 400;
+}
+.nonprofitverse-image2 {
+  width: 314px;
+  height: 212px;
+  align-self: flex-end;
+  margin-top: 3em;
+  object-fit: cover;
+  margin-right: 25em;
+}
