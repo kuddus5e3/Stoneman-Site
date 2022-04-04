@@ -1,0 +1,15 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.footer-text {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  font-style: normal;
+  font-family: Times New Roman;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
